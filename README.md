@@ -52,13 +52,13 @@ CODECHAT_API_KEY = TOKENCODECHAT
  ```
  
 </p>
-TOSIGN=true
+TOSIGN=true #comando para ativar o nome do usuario do chatwoot
 </p>
 npm install
 </p>
-npm run build
+npm run build ##Comando para testar a api
 </p>
-pm2 start dist/app.js --name NOMEQUEDESEJAR
+pm2 start dist/app.js --name chatwoot-codechat  ##Comando para ativar o pm2
 </p>
 sudo nano /etc/nginx/sites-available/conector
 </p>
